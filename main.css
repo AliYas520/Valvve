@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Din_Bold;
+    src: url(Assets/Font/DIN_Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Niramit;
+    src: url(Assets/Font/Niramit-Bold.ttf);
+}
+
+
+
+*{
+    font-family: Din_Bold;
+}
+#logo{
+    width: 200px;
+    height: 57px;
+}
