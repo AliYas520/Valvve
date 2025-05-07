@@ -55,6 +55,13 @@
 #content{
     margin: 0 80px 0 80px;
 }
+#Steam{
+    background-color: #06152d;
+}
+#about_steam{
+    width: 70%;
+    float: left;
+}
 #steam_icon
 {
     width: 300px;
@@ -66,7 +73,7 @@
 #Games_List{
     display: flex;
     margin: 20px 60px 20px 60px;
-    max-width: 60%;
+    max-width: 80%;
     flex-wrap: wrap;
     justify-self: center;
 }
@@ -93,4 +100,7 @@
 .Game_title{
     text-align: center;
     background: none;
+}
+.Game_item img{
+    width: 320px;
 }
