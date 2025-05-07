@@ -1,0 +1,10 @@
+@font-face{
+    font-family: din_bold;
+    src: url(Assets/Font/DIN\ Bold.otf);
+}
+
+*{
+    font-family: din_bold;
+    color: #fefefe;
+    background-color: #505050;
+}
