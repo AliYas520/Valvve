@@ -20,8 +20,10 @@
     height: 80px;
     width: 100%;
     padding: 5px;
-    margin: 20px 0px;
+    margin: -12px -10px 160px;
     overflow: hidden;
+    position: fixed ;
+    top: 0;
 }
 #logo{
     width: 200px;
@@ -47,10 +49,12 @@
 }
 #home{
     justify-items: center;
+    height: 850px;
 }
 #hero{
     width: 820px;
     background-color: #fefefe;
+    margin-top: 200px;
 }
 #content{
     margin: 0 80px 0 80px;
@@ -82,8 +86,6 @@
     border-radius: 16px;
     margin: 16px;
     text-wrap: wrap;
-    width: 320px;
-    height: 4%;
     overflow: hidden;
     filter: brightness(65%);
 }
