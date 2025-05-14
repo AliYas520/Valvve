@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="main.css">
 <body>
    <div id="header">
-        <img id="logo" src="Assets/Images/Valve.png" alt="VALVE">
+        <img id="logo" src="Assets/Images/Valve_logo.svg" alt="VALVE">
         <ul id="menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -16,68 +16,93 @@
         </ul>
    </div>
    <div id="content">
+
         <div id="home">
-            <img src="Assets/Images/Valve_logo.svg">
-            <h1>Valve Software</h1>
-        </div>    
+            <div>
+                <img id="hero" src="Assets/Images/Valve_logo.svg" alt="Valve Corp.">
+                <h1><b>Valve Software</b></h1>
+            </div>
+        </div>
+
         <div id="about">
-            <h2>At Valve we make games, Steam, and hardware.</h2>
-            <p>Valve's debut title, Half-Life, was released in 1998. It won more than 50 game of the year awards, and PC Gamer even called it the Best PC Game Ever. Since then, we've released dozens of titles that changed the world. Today, millions of people play our games every day.</p>
-            <p>Our earlier titles were built on an innovative engine with world-class gameplay as their paramount goal, and praised by critics as games that revitalized or even invented their genres.</p>
+            <div class="head">
+                <h1 class="Title"><b>At Valve we make games, Steam, and hardware.</b></h1>
+                <div class="Content">
+                    <div class="mini_title">
+                        <h3>Our games attract millions and define genres.</h3>
+                    </div>
+                    <div class="paragraph">
+                        <p>Valve's debut title, Half-Life, was released in 1998. It won more than 50 game of the year awards, and PC Gamer even called it the Best PC Game Ever. Since then, we've released <a class="link" href="#Games">dozens of titles</a> that changed the world. Today, millions of people play our games every day.</p>
+                        <p>Our earlier titles were built on an innovative engine with world-class gameplay as their paramount goal, and praised by critics as games that revitalized or even invented their genres.</p>
+                    </div>
+                </div>
+            </div>
+            <img id="winner" src="Assets/Images/image_1747191151508.png">
         </div>
+
         <div id="Steam">
-            <h2>Our platform connects players with the world's greatest entertainment.</h2>
-            <p>We created <a href=https://store.steampowered.com>Steam</a> in 2003 to serve as a digital content distribution channel, before app stores existed. It's since grown and evolved into a platform for thousands of creators and publishers to deliver content and establish direct relationships with their customers. The Steam Community enables millions of players to do likewise, sharing entertainment and ideas, and making friends.</p>
-            <a href="https://store.steampowered.com"><img src="Assets/Images/Steam_icon_logo.svg"></a>
-        </div>
-        <div id="Games">
-            <h1>Featured Game/Series</h1>
-            <div id="game-list">
-                <div class="list-item">
-                    <a href="">                   
-                    <img src="Assets/Images/cs2card.png">
-                    <h3>Counter Strike 2</h3>
-                    </a>
+            <div class="Content">
+                <div id="about_steam">
+                <div class="mini_title">
+                    <h3>Steam</h3>
                 </div>
-                <div class="list-item">
-                    <a href="">
-                    <img src="Assets/Images/hl2card.png">
-                    <h3>Half Life Series</h3>
-                    </a>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quasi quo esse tempore autem fugiat quidem nostrum, optio ipsum sit minima exercitationem quibusdam, dicta recusandae porro culpa amet architecto cum!</div>
                 </div>
-                <div class="list-item">
-                    <a href="">
-                    <img src="Assets/Images/portalcard.png">
-                    <h3>Portal Series</h3>
-                    </a>
-                </div>
-                <div class="list-item">
-                    <a href="">
-                    <img src="Assets/Images/Dota2card.png">
-                    <h3>Dota 2</h3>
-                    </a> 
-                </div>
-                <div class="list-item">
-                    <a href="">
-                    <img src="Assets/Images/TF2Card.png">
-                    <h3>Team Fortress 2</h3>
-                    </a>
-                </div>
-                <div class="list-item">
-                    <a href="">
-                    <img src="Assets/Images/Left4Dead_Windows_cover.jpg">
-                    <h3>Left 4 Dead Series</h3>
-                    </a>
+                <div>
+                    <img id="steam_icon" src="Assets/Images/Steam_icon_logo.svg" alt="Steam icon">
                 </div>
             </div>
         </div>
+        
+        <div id="Games">
+            <div class="Content">
+                <div class="mini_title">
+                    <h3>Valve's debut title, Half-Life, was released in 1998. Since then, we've released dozens of titles that changed the world (and one that didn't). Today, millions of people play our games every day.</h3>
+                </div>
+                <div id="Games_List">
+                    <div class="Game_item">
+                        <a href="https://store.steampowered.com/app/730/CounterStrike_2/?curator_clanid=4">
+                        <img src="Assets/Images/cs2card.png">
+                        <h4 class="Game_title">Counter Strike 2</h4>
+                        </a>
+                    </div>
+                    <div class="Game_item">
+                        <a href="https://store.steampowered.com/developer/valve/list/7/">
+                        <img src="Assets/Images/hl2card.png">
+                        <h4 class="Game_title">Half Life Series</h4></a>
+                    </div>
+                    <div class="Game_item">
+                        <a href="https://store.steampowered.com/developer/valve/list/9/">
+                            <img src="Assets/Images/portalcard.png">
+                            <h4 class="Game_title">Portal Series</h4>
+                        </a>
+                    </div>
+                    <div class="Game_item">
+                        <a href="https://store.steampowered.com/app/440/Team_Fortress_2/?curator_clanid=4">
+                            <img src="Assets/Images/TF2Card.png">
+                            <h4 class="Game_title">Team Fortress 2</h4>
+                        </a>
+                    </div>
+                    <div class="Game_item">
+                        <a href="https://store.steampowered.com/developer/valve/list/10/">
+                            <img src="Assets/Images/Left4Dead_Windows_cover.jpg">
+                            <h4 class="Game_title">Left 4 dead Series</h4>
+                        </a>
+                    </div>
+                    <div class="Game_item">
+                        <a href="https://store.steampowered.com/app/570/Dota_2/">
+                            <img src="Assets/Images/Dota2card.png">
+                            <h4 class="Game_title">Dota 2</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
    </div>
    <div id="footer">
-    <div id="Contacts">
-        <p>this webite is made for learning html & css</p>
-        <p>please contact <a>kuronekoy520@gmail.com</a> for removal</p>
-    </div>
-    <div id="Copyright">© 2025 Valve Corporation. All rights reserved. Valve, the Valve logo, Half-Life, the Half-Life logo, the Lambda logo, Steam, the Steam logo, Team Fortress, the Team Fortress logo, Opposing Force, Day of Defeat, the Day of Defeat logo, Counter-Strike, the Counter-Strike logo, Source, the Source logo, Counter-Strike: Condition Zero, Portal, the Portal logo, Dota, the Dota 2 logo, and Defense of the Ancients are trademarks and/or registered trademarks of Valve Corporation. All other trademarks are property of their respective owners.</div>
+    <div id="Contacts"></div>
+    <div id="Copyright"></div>
    </div>
 </body>
 </html>
