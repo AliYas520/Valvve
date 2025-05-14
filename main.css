@@ -122,3 +122,71 @@ body{
     width: 320px;
     float: right;
 }
+
+
+/*----------------------------------------------*/
+#Games{
+    margin: 120px 80px 160px 80px;
+}
+#Games_List{
+    display: flex;
+    margin: 20px 60px 20px 60px;
+    max-width: 70%;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: center;
+}
+.Game_item{
+    background-color: #24242460;
+    border-radius: 16px;
+    margin: 16px;
+    text-wrap: wrap;
+    overflow: hidden;
+    filter: brightness(65%);
+}
+.Game_item:hover{
+    scale: 110%;
+    filter: brightness(100%);
+}
+.Game_item a{
+    background-color: #00000000;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.Game_title{
+    text-align: center;
+    background: none;
+}
+.Game_item img{
+    width: 320px;
+}
+
+
+
+
+
+/*------------------------------------------------*/
+#footer{
+    display: flex;
+    background-color: #f74641;
+}
+#wrap{
+    display: flex;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+#Contacts{
+    width: 35%;
+    float: left;
+}
+.Copyright{
+    width: 45%;
+    float: center;
+}
+#Official{
+    width: 20%;
+    float: right;
+}
