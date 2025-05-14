@@ -100,6 +100,25 @@ body{
 
 /*-----------------------------------------------*/
 #Steam{
-    background-color: #214d6f;
-    display: block;
+    background-color: #1c2c41;
+    display: flex;
+    padding: 12px 80px 32px 80px;
+}
+#about_steam{
+    float: left;
+    width: 80%;
+    margin: 20px 80px;
+}
+#download_steam{
+    margin: 24px;
+    height: 64px;
+    width: 280px;
+    background-color: #2585ff;
+    border-radius: 8px;
+    border-style: none;
+}
+#steam_icon{
+    margin-left: 250px;
+    width: 320px;
+    float: right;
 }
